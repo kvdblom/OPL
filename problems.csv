@@ -1,0 +1,4 @@
+name,suite/single problem,objectives,dimensionality,variable type,constraints,reference,implementation
+BBOB,suite,1-2,scalable,continuous,no,https://doi.org/10.1080/10556788.2020.1808977,https://github.com/numbbo/coco
+MOrepo,suite,2,?,combinatorial,?,?,https://github.com/MCDMSociety/MOrepo
+ZDT,suite,2,scalable,continuous,no,https://doi.org/10.1162/106365600568202,https://github.com/anyoptimization/pymoo
