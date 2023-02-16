@@ -1,11 +1,15 @@
-name,suite/generator/single,objectives,dimensionality,variable type,constraints,dynamic,noise,reference,implementation
-BBOB,suite,1-2,scalable,continuous,no,?,?,https://doi.org/10.1080/10556788.2020.1808977,https://github.com/numbbo/coco
-MOrepo,suite,2,?,combinatorial,?,?,?,?,https://github.com/MCDMSociety/MOrepo
-ZDT,suite,2,scalable,continuous+binary,no,?,?,https://doi.org/10.1162/106365600568202,https://github.com/anyoptimization/pymoo
-DTLZ,suite,2+,scalable,continuous,no,?,?,https://doi.org/10.1109/CEC.2002.1007032,https://pymoo.org/problems/many/dtlz.html
-WFG,suite,2+,scalable,continuous,no,?,?,https://doi.org/10.1109/TEVC.2005.861417,https://pymoo.org/problems/many/wfg.html
-CDMP,suite,2+,scalable,continuous,yes,?,?,https://doi.org/10.1145/3321707.3321878,?
-SDP,suite,2+,scalable,continuous,no,yes,?,https://doi.org/10.1109/TCYB.2019.2896021,?
-MaOP,suite,2+,scalable,continuous,no,no,?,https://doi.org/10.1016/j.swevo.2019.02.003,?
-BP,suite,2+,scalable,continuous,no,no,?,https://doi.org/10.1109/CEC.2019.8790277,?
-GPD,generator,2+,scalable,continuous,optional,no,optional,https://doi.org/10.1016/j.asoc.2020.106139,?
+name,suite/generator/single,objectives,dimensionality,variable type,constraints,dynamic,noise,multimodal,other info,reference,implementation
+BBOB,suite,1-2,scalable,continuous,no,?,?,?,,https://doi.org/10.1080/10556788.2020.1808977,https://github.com/numbbo/coco
+MOrepo,suite,2,?,combinatorial,?,?,?,?,?,,https://github.com/MCDMSociety/MOrepo
+ZDT,suite,2,scalable,continuous+binary,no,?,?,?,,https://doi.org/10.1162/106365600568202,https://github.com/anyoptimization/pymoo
+DTLZ,suite,2+,scalable,continuous,no,?,?,?,,https://doi.org/10.1109/CEC.2002.1007032,https://pymoo.org/problems/many/dtlz.html
+WFG,suite,2+,scalable,continuous,no,?,?,?,,https://doi.org/10.1109/TEVC.2005.861417,https://pymoo.org/problems/many/wfg.html
+CDMP,suite,2+,scalable,continuous,yes,?,?,?,,https://doi.org/10.1145/3321707.3321878,?
+SDP,suite,2+,scalable,continuous,no,yes,?,?,,https://doi.org/10.1109/TCYB.2019.2896021,?
+MaOP,suite,2+,scalable,continuous,no,no,?,?,,https://doi.org/10.1016/j.swevo.2019.02.003,?
+BP,suite,2+,scalable,continuous,no,no,?,?,,https://doi.org/10.1109/CEC.2019.8790277,?
+GPD,generator,2+,scalable,continuous,optional,no,optional,?,,https://doi.org/10.1016/j.asoc.2020.106139,?
+ETMOF,suite,2-50,25-10000,continuous,no,yes,no,?,,https://doi.org/10.48550/arXiv.2110.08033,https://github.com/songbai-liu/etmo
+MMOPP,suite,2-7,?,?,yes,no,no,yes,,http://www5.zzu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1327567121&wbfileid=4764412,http://www5.zzu.edu.cn/ecilab/info/1036/1251.htm
+CFD,suite,1-2,scalable,?,yes,no,no,?,expensive evaluations 30s-15m; real world,https://doi.org/10.1007/978-3-319-99259-4_24,https://bitbucket.org/arahat/cfd-test-problem-suite
+GBEA,suite,1-2,scalable,continuous,no,no,yes,?,expensive evaluations 5s-35s; real world,https://doi.org/10.1145/3321707.3321805,?
