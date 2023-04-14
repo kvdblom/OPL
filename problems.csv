@@ -1,5 +1,11 @@
 name,suite/generator/single,objectives,dimensionality,variable type,constraints,dynamic,noise,multimodal,multi-fidelity,other info,reference,implementation
-BBOB,suite,1-2,scalable,continuous,no,?,?,?,no,,https://doi.org/10.1080/10556788.2020.1808977,https://github.com/numbbo/coco
+BBOB,suite,1,scalable,continuous,no,?,?,yes,no,,https://doi.org/10.1080/10556788.2020.1808977,https://github.com/numbbo/coco
+BBOB-biobj,suite,2,2-40,continuous,no,no,no,yes,no,,https://doi.org/10.48550/arXiv.1604.00359,https://github.com/numbbo/coco
+BBOB-noisy,suite,1,scalable,continuous,no,no,yes,yes,no,,https://hal.inria.fr/inria-00369466,https://web.archive.org/web/20210416065610/https://coco.gforge.inria.fr/doku.php?id=downloads
+BBOB-largescale,suite,1,20-640,continuous,no,no,no,yes,no,,https://doi.org/10.48550/arXiv.1903.06396,https://github.com/numbbo/coco
+BBOB-mixint,suite,1,5-160,integer;continuous;mixed,no,no,no,yes,no,,https://doi.org/10.1145/3321707.3321868,https://github.com/numbbo/coco
+BBOB-biobj-mixint,suite,2,5-160,integer;continuous;mixed,no,no,no,yes,no,,https://doi.org/10.1145/3321707.3321868,https://github.com/numbbo/coco
+BBOB-constrained,suite,1,2-40,continuous,yes,no,no,yes,no,,http://numbbo.github.io/coco-doc/bbob-constrained/,https://github.com/numbbo/coco
 MOrepo,suite,2,?,combinatorial,?,?,?,?,no,?,,https://github.com/MCDMSociety/MOrepo
 ZDT,suite,2,scalable,continuous;binary,no,?,?,?,no,,https://doi.org/10.1162/106365600568202,https://github.com/anyoptimization/pymoo
 DTLZ,suite,2+,scalable,continuous,no,?,?,?,no,,https://doi.org/10.1109/CEC.2002.1007032,https://pymoo.org/problems/many/dtlz.html
