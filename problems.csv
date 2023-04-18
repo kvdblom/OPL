@@ -26,3 +26,5 @@ RE,suite,2-9,2-7,continuous;integer;mixed,no,no,no,?,no,real world like,https://
 CRE,suite,2-5,3-7,continuous;integer;mixed,yes,no,no,?,no,real world like,https://doi.org/10.1016/j.asoc.2020.106078,https://github.com/ryojitanabe/reproblems
 Radar waveform,single,9,4-12,integer,yes,no,no,?,no,real world,https://doi.org/10.1007/978-3-540-70928-2_53,http://code.evanhughes.org/
 MF2,suite,1,1-n,continuous,no,no,no,?,yes,,https://doi.org/10.21105/joss.02049,https://github.com/sjvrijn/mf2
+AMVOP,suite,1,scalable,mixed continuous+integer+categorical+both,no,no,no,yes,no,,https://doi.org/10.1109/TEVC.2013.2281531,?
+RWMVOP,suite,1,scalable,continuous;mixed continuous+integer+categorical+both,yes,no,no,?,no,real world,https://doi.org/10.1109/TEVC.2013.2281531,?
