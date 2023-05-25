@@ -28,3 +28,4 @@ Radar waveform,single,9,4-12,integer,yes,no,no,?,no,real world,https://doi.org/1
 MF2,suite,1,1-n,continuous,no,no,no,?,yes,,https://doi.org/10.21105/joss.02049,https://github.com/sjvrijn/mf2
 AMVOP,suite,1,scalable,mixed continuous+ordinal+categorical+both,no,no,no,yes,no,,https://doi.org/10.1109/TEVC.2013.2281531,?
 RWMVOP,suite,1,scalable,continuous;mixed continuous+ordinal+categorical+both,yes,no,no,?,no,real world,https://doi.org/10.1109/TEVC.2013.2281531,?
+SBOX-COST,suite,1,scalable,continuous,no,no,no,yes,no,problems from BBOB but allows instances with the optimum close to the boundary,https://doi.org/10.48550/arXiv.2305.12221,https://github.com/IOHprofiler/IOHexperimenter/
