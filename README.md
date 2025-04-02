@@ -21,4 +21,4 @@ It is often far easier for the creator of a problem/suite/generator, or someone 
 - A reference to a source code implementation of the problem/suite/generator (if available)
 
 ## Contact
-koen.vdblom@lip6.fr
+koen.van.der.blom@cwi.nl
