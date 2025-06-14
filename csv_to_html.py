@@ -3,7 +3,7 @@
 import pandas as pd
 import shutil
 
-html_dir = "html/"
+html_dir = "docs/"
 html_table = f"{html_dir}problems.html"
 html_header = f"{html_dir}header.html"
 html_scripts = f"{html_dir}javascript.html"
