@@ -7,7 +7,7 @@
 <script src="https://cdn.datatables.net/2.3.2/js/dataTables.min.js" integrity="sha384-RZEqG156bBQSxYY9lwjUz/nKVkqYj/QNK9dEjjyJ/EVTO7ndWwk6ZWEkvaKdRm/U" crossorigin="anonymous"></script>
 
 <style>
-    tfoot input {
+    thead input {
         width: 100%;
         padding: 3px;
         box-sizing: border-box;
@@ -577,6 +577,11 @@ new DataTable('#problems', {
                     if (column.search() !== this.value) {
                         column.search(input.value).draw();
                     }
+                });
+
+                // Stop search boxes from applying sorting
+                input.addEventListener('click', (e) => {
+                    e.stopPropagation();
                 });
             });
     }

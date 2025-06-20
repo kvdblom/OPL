@@ -28,6 +28,11 @@ new DataTable('#problems', {
                         column.search(input.value).draw();
                     }
                 });
+
+                // Stop search boxes from applying sorting
+                input.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                });
             });
     }
 });
