@@ -37,3 +37,4 @@ Ealain,generator,1+,scalable,"continuous,binary,integer",optional,optional,no,?,
 MA-BBOB,generator,1,scalable,continuous,no,no,no,yes,no,Generator that creates affine combinations of BBOB functions,https://doi.org/10.1145/3673908,https://github.com/IOHprofiler/IOHexperimenter/blob/master/example/Competitions/MA-BBOB/Example_MABBOB.ipynb
 MPM2,generator,1,scalable,continuous,no,no,no,yes,no,nonlinear nonseparable nonsymmetric; scalable in terms of time to evaluate the objective function,https://ls11-www.cs.tu-dortmund.de/_media/techreports/tr15-01.pdf,https://github.com/jakobbossek/smoof/blob/master/inst/mpm2.py
 Convex DTLZ2,single,2+,scalable,continuous,no,no,no,?,no,Variant of DTLZ2 with a convex Pareto front (instead of concave),https://doi.org/10.1109/TEVC.2013.2281535,?
+Inverted DTLZ1,single,2+,scalable,continuous,no,no,no,?,no,Variant of DTLZ1 with an inverted Pareto front,https://doi.org/10.1109/TEVC.2013.2281534,?
