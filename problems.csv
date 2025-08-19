@@ -8,7 +8,7 @@ BBOB-biobj-mixint,suite,2,5-160,integer;continuous;mixed,no,no,no,yes,no,,https:
 BBOB-constrained,suite,1,2-40,continuous,yes,no,no,yes,no,,http://numbbo.github.io/coco-doc/bbob-constrained/,https://github.com/numbbo/coco
 MOrepo,suite,2,?,combinatorial,?,?,?,?,no,,,https://github.com/MCDMSociety/MOrepo
 ZDT,suite,2,scalable,continuous;binary,no,?,?,?,no,,https://doi.org/10.1162/106365600568202,https://github.com/anyoptimization/pymoo
-DTLZ,suite,2+,scalable,continuous,no,?,?,?,no,,https://doi.org/10.1109/CEC.2002.1007032,https://pymoo.org/problems/many/dtlz.html
+DTLZ,suite,2+,scalable,continuous,no,no,no,?,no,,https://doi.org/10.1109/CEC.2002.1007032,https://pymoo.org/problems/many/dtlz.html
 WFG,suite,2+,scalable,continuous,no,?,?,?,no,,https://doi.org/10.1109/TEVC.2005.861417,https://pymoo.org/problems/many/wfg.html
 CDMP,suite,2+,scalable,continuous,yes,?,?,?,no,,https://doi.org/10.1145/3321707.3321878,?
 SDP,suite,2+,scalable,continuous,no,yes,?,?,no,,https://doi.org/10.1109/TCYB.2019.2896021,?
@@ -36,3 +36,4 @@ CEC2015-DMOO,suite,2-3,?,continuous,?,yes,no,?,no,,Benchmark Functions for CEC 2
 Ealain,generator,1+,scalable,"continuous,binary,integer",optional,optional,no,?,optional,"Real-world-like, easily extensible to increase complexity",https://doi.org/10.1145/3638530.3654299,https://github.com/qrenau/Ealain
 MA-BBOB,generator,1,scalable,continuous,no,no,no,yes,no,Generator that creates affine combinations of BBOB functions,https://doi.org/10.1145/3673908,https://github.com/IOHprofiler/IOHexperimenter/blob/master/example/Competitions/MA-BBOB/Example_MABBOB.ipynb
 MPM2,generator,1,scalable,continuous,no,no,no,yes,no,nonlinear nonseparable nonsymmetric; scalable in terms of time to evaluate the objective function,https://ls11-www.cs.tu-dortmund.de/_media/techreports/tr15-01.pdf,https://github.com/jakobbossek/smoof/blob/master/inst/mpm2.py
+Convex DTLZ2,single,2+,scalable,continuous,no,no,no,?,no,Variant of DTLZ2 with a convex Pareto front (instead of concave),https://doi.org/10.1109/TEVC.2013.2281535,?
