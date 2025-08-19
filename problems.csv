@@ -7,7 +7,7 @@ BBOB-mixint,suite,1,5-160,integer;continuous;mixed,no,no,no,yes,no,,https://doi.
 BBOB-biobj-mixint,suite,2,5-160,integer;continuous;mixed,no,no,no,yes,no,,https://doi.org/10.1145/3321707.3321868,https://github.com/numbbo/coco
 BBOB-constrained,suite,1,2-40,continuous,yes,no,no,yes,no,,http://numbbo.github.io/coco-doc/bbob-constrained/,https://github.com/numbbo/coco
 MOrepo,suite,2,?,combinatorial,?,?,?,?,no,,,https://github.com/MCDMSociety/MOrepo
-ZDT,suite,2,scalable,continuous;binary,no,?,?,?,no,,https://doi.org/10.1162/106365600568202,https://github.com/anyoptimization/pymoo
+ZDT,suite,2,scalable,continuous;binary,no,no,no,?,no,,https://doi.org/10.1162/106365600568202,https://github.com/anyoptimization/pymoo
 DTLZ,suite,2+,scalable,continuous,no,no,no,?,no,,https://doi.org/10.1109/CEC.2002.1007032,https://pymoo.org/problems/many/dtlz.html
 WFG,suite,2+,scalable,continuous,no,no,no,?,no,,https://doi.org/10.1109/TEVC.2005.861417,https://pymoo.org/problems/many/wfg.html
 CDMP,suite,2+,scalable,continuous,yes,?,?,?,no,,https://doi.org/10.1145/3321707.3321878,?
@@ -40,3 +40,8 @@ Convex DTLZ2,single,2+,scalable,continuous,no,no,no,?,no,Variant of DTLZ2 with a
 Inverted DTLZ1,single,2+,scalable,continuous,no,no,no,?,no,Variant of DTLZ1 with an inverted Pareto front,https://doi.org/10.1109/TEVC.2013.2281534,?
 Minus DTLZ,suite,2+,scalable,continuous,no,no,no,?,no,Variant of DTLZ that minimises the inverse of the base DTLZ functions,https://doi.org/10.1109/TEVC.2016.2587749,?
 Minus WFG,suite,2+,scalable,continuous,no,no,no,?,no,Variant of WFG that minimises the inverse of the base WFG functions,https://doi.org/10.1109/TEVC.2016.2587749,?
+L1-ZDT,suite,2,scalable,continuous;binary,no,no,no,?,no,Variant of ZDT with linkages between variables within one of two groups but not between variables in a different group; Linear recombination operators can potentially take advantage of the problem structure,https://doi.org/10.1145/1143997.1144179,?
+L2-ZDT,suite,2,scalable,continuous;binary,no,no,no,?,no,Variant of ZDT with linkages between all variables; Linear recombination operators can potentially take advantage of the problem structure,https://doi.org/10.1145/1143997.1144179,?
+L3-ZDT,suite,2,scalable,continuous;binary,no,no,no,?,no,Variant of L2-ZDT using a mapping to prevent linear recombination operators from potentially taking advantage of the problem structure,https://doi.org/10.1145/1143997.1144179,?
+L2-DTLZ,suite,2+,scalable,continuous,no,no,no,?,no,Variant of DTLZ2 and DTLZ3 with linkages between all variables; Linear recombination operators can potentially take advantage of the problem structure,https://doi.org/10.1145/1143997.1144179,?
+L3-DTLZ,suite,2+,scalable,continuous,no,no,no,?,no,Variant of L2-DTLZ using a mapping to prevent linear recombination operators from potentially taking advantage of the problem structure,https://doi.org/10.1145/1143997.1144179,?
