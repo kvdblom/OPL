@@ -9,7 +9,7 @@ BBOB-constrained,suite,1,2-40,continuous,yes,no,no,yes,no,,http://numbbo.github.
 MOrepo,suite,2,?,combinatorial,?,?,?,?,no,,,https://github.com/MCDMSociety/MOrepo
 ZDT,suite,2,scalable,continuous;binary,no,?,?,?,no,,https://doi.org/10.1162/106365600568202,https://github.com/anyoptimization/pymoo
 DTLZ,suite,2+,scalable,continuous,no,no,no,?,no,,https://doi.org/10.1109/CEC.2002.1007032,https://pymoo.org/problems/many/dtlz.html
-WFG,suite,2+,scalable,continuous,no,?,?,?,no,,https://doi.org/10.1109/TEVC.2005.861417,https://pymoo.org/problems/many/wfg.html
+WFG,suite,2+,scalable,continuous,no,no,no,?,no,,https://doi.org/10.1109/TEVC.2005.861417,https://pymoo.org/problems/many/wfg.html
 CDMP,suite,2+,scalable,continuous,yes,?,?,?,no,,https://doi.org/10.1145/3321707.3321878,?
 SDP,suite,2+,scalable,continuous,no,yes,?,?,no,,https://doi.org/10.1109/TCYB.2019.2896021,?
 MaOP,suite,2+,scalable,continuous,no,no,?,?,no,,https://doi.org/10.1016/j.swevo.2019.02.003,?
@@ -38,3 +38,5 @@ MA-BBOB,generator,1,scalable,continuous,no,no,no,yes,no,Generator that creates a
 MPM2,generator,1,scalable,continuous,no,no,no,yes,no,nonlinear nonseparable nonsymmetric; scalable in terms of time to evaluate the objective function,https://ls11-www.cs.tu-dortmund.de/_media/techreports/tr15-01.pdf,https://github.com/jakobbossek/smoof/blob/master/inst/mpm2.py
 Convex DTLZ2,single,2+,scalable,continuous,no,no,no,?,no,Variant of DTLZ2 with a convex Pareto front (instead of concave),https://doi.org/10.1109/TEVC.2013.2281535,?
 Inverted DTLZ1,single,2+,scalable,continuous,no,no,no,?,no,Variant of DTLZ1 with an inverted Pareto front,https://doi.org/10.1109/TEVC.2013.2281534,?
+Minus DTLZ,suite,2+,scalable,continuous,no,no,no,?,no,Variant of DTLZ that minimises the inverse of the base DTLZ functions,https://doi.org/10.1109/TEVC.2016.2587749,?
+Minus WFG,suite,2+,scalable,continuous,no,no,no,?,no,Variant of WFG that minimises the inverse of the base WFG functions,https://doi.org/10.1109/TEVC.2016.2587749,?
