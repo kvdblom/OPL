@@ -1,0 +1,35 @@
+/* Apply to everything */
+* {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 1vw;
+    background-color: WhiteSmoke;
+}
+
+input[type=text] {
+  background-color: #3CBC8D;
+  color: white;
+}
+
+.styled-table {
+    font-size: 0.9em;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+    background-color: AntiqueWhite;
+}
+
+.styled-table tbody tr:nth-of-type(odd) {
+    background-color: SeaShell;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: Snow;
+}
+
+.styled-table tbody tr:hover {
+    filter: brightness(.975);
+}

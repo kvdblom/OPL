@@ -15,7 +15,7 @@ data = pd.read_csv("problems.csv")
 table = data.to_html(render_links=True,
                      index=False,
                      table_id="problems",
-                     classes=["display compact", "display"],  # Set display style
+                     classes=["display compact", "display", "styled-table"],  # Set display style
                      border=0,
                      na_rep="")  # Leave NaN cells empty
 
