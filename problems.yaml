@@ -873,3 +873,49 @@
   implementation: https://github.com/P-N-Suganthan/2022-SO-BO
   source (real-world/artificial): artificial
   textual description: suite used for cec2022 competition
+- name: Onemax+Sphere / Zeromax+Sphere
+  suite/generator/single: single
+  objectives: '2'
+  dimensionality: scalable
+  variable type: binary and continuous;mixed;
+  constraints: 'no'
+  dynamic: 'no'
+  noise: 'no'
+  multimodal: ''
+  multi-fidelity: 'no'
+  other info: ''
+  reference: https://doi.org/10.1145/3449726.3459521
+  implementation:
+  source (real-world/artificial): 'artificial'
+  textual description: ''
+- name: Onemax+Sphere / DeceptiveTrap+RotatedEllipsoid
+  suite/generator/single: single
+  objectives: '2'
+  dimensionality: scalable
+  variable type: binary and continuous;mixed;
+  constraints: 'no'
+  dynamic: 'no'
+  noise: 'no'
+  multimodal: ''
+  multi-fidelity: 'no'
+  other info: ''
+  reference: https://doi.org/10.1145/3449726.3459521
+  implementation:
+  source (real-world/artificial): 'artificial'
+  textual description: ''
+- name: InverseDeceptiveTrap+RotatedEllipsoid / DeceptiveTrap+RotatedEllipsoid
+  suite/generator/single: single
+  objectives: '2'
+  dimensionality: scalable
+  variable type: binary and continuous;mixed;
+  constraints: 'no'
+  dynamic: 'no'
+  noise: 'no'
+  multimodal: ''
+  multi-fidelity: 'no'
+  other info: ''
+  reference: https://doi.org/10.1145/3449726.3459521
+  implementation:
+  source (real-world/artificial): 'artificial'
+  textual description: ''
+  
