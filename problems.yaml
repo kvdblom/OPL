@@ -8,7 +8,6 @@
   noise: 'no'
   multimodal: 'yes'
   multi-fidelity: 'no'
-  other info: ''
   reference: https://doi.org/10.1080/10556788.2020.1808977
   implementation: https://github.com/numbbo/coco
   source (real-world/artificial): ''
@@ -23,7 +22,6 @@
   noise: 'no'
   multimodal: 'yes'
   multi-fidelity: 'no'
-  other info: ''
   reference: https://doi.org/10.48550/arXiv.1604.00359
   implementation: https://github.com/numbbo/coco
   source (real-world/artificial): ''
@@ -38,7 +36,6 @@
   noise: 'yes'
   multimodal: 'yes'
   multi-fidelity: 'no'
-  other info: ''
   reference: https://hal.inria.fr/inria-00369466
   implementation: https://web.archive.org/web/20210416065610/https://coco.gforge.inria.fr/doku.php?id=downloads
   source (real-world/artificial): ''
@@ -53,7 +50,6 @@
   noise: 'no'
   multimodal: 'yes'
   multi-fidelity: 'no'
-  other info: ''
   reference: https://doi.org/10.48550/arXiv.1903.06396
   implementation: https://github.com/numbbo/coco
   source (real-world/artificial): ''
@@ -68,7 +64,6 @@
   noise: 'no'
   multimodal: 'yes'
   multi-fidelity: 'no'
-  other info: ''
   reference: https://doi.org/10.1145/3321707.3321868
   implementation: https://github.com/numbbo/coco
   source (real-world/artificial): ''
@@ -83,7 +78,6 @@
   noise: 'no'
   multimodal: 'yes'
   multi-fidelity: 'no'
-  other info: ''
   reference: https://doi.org/10.1145/3321707.3321868
   implementation: https://github.com/numbbo/coco
   source (real-world/artificial): ''
@@ -98,7 +92,6 @@
   noise: 'no'
   multimodal: 'yes'
   multi-fidelity: 'no'
-  other info: ''
   reference: http://numbbo.github.io/coco-doc/bbob-constrained/
   implementation: https://github.com/numbbo/coco
   source (real-world/artificial): ''
@@ -113,7 +106,6 @@
   noise: '?'
   multimodal: '?'
   multi-fidelity: 'no'
-  other info: ''
   reference: ''
   implementation: https://github.com/MCDMSociety/MOrepo
   source (real-world/artificial): ''
@@ -128,7 +120,6 @@
   noise: 'no'
   multimodal: '?'
   multi-fidelity: 'no'
-  other info: ''
   reference: https://doi.org/10.1162/106365600568202
   implementation: https://github.com/anyoptimization/pymoo
   source (real-world/artificial): ''
@@ -143,7 +134,6 @@
   noise: 'no'
   multimodal: '?'
   multi-fidelity: 'no'
-  other info: ''
   reference: https://doi.org/10.1109/CEC.2002.1007032
   implementation: https://pymoo.org/problems/many/dtlz.html
   source (real-world/artificial): ''
@@ -158,7 +148,6 @@
   noise: 'no'
   multimodal: '?'
   multi-fidelity: 'no'
-  other info: ''
   reference: https://doi.org/10.1109/TEVC.2005.861417
   implementation: https://pymoo.org/problems/many/wfg.html
   source (real-world/artificial): ''
@@ -173,7 +162,6 @@
   noise: '?'
   multimodal: '?'
   multi-fidelity: 'no'
-  other info: ''
   reference: https://doi.org/10.1145/3321707.3321878
   implementation: '?'
   source (real-world/artificial): ''
@@ -188,7 +176,6 @@
   noise: '?'
   multimodal: '?'
   multi-fidelity: 'no'
-  other info: ''
   reference: https://doi.org/10.1109/TCYB.2019.2896021
   implementation: '?'
   source (real-world/artificial): ''
@@ -203,7 +190,6 @@
   noise: '?'
   multimodal: '?'
   multi-fidelity: 'no'
-  other info: ''
   reference: https://doi.org/10.1016/j.swevo.2019.02.003
   implementation: '?'
   source (real-world/artificial): ''
@@ -218,7 +204,6 @@
   noise: '?'
   multimodal: '?'
   multi-fidelity: 'no'
-  other info: ''
   reference: https://doi.org/10.1109/CEC.2019.8790277
   implementation: '?'
   source (real-world/artificial): ''
@@ -233,7 +218,6 @@
   noise: optional
   multimodal: '?'
   multi-fidelity: 'no'
-  other info: ''
   reference: https://doi.org/10.1016/j.asoc.2020.106139
   implementation: '?'
   source (real-world/artificial): ''
@@ -248,7 +232,6 @@
   noise: 'no'
   multimodal: '?'
   multi-fidelity: 'no'
-  other info: ''
   reference: https://doi.org/10.48550/arXiv.2110.08033
   implementation: https://github.com/songbai-liu/etmo
   source (real-world/artificial): ''
@@ -263,7 +246,6 @@
   noise: 'no'
   multimodal: 'yes'
   multi-fidelity: 'no'
-  other info: ''
   reference: http://www5.zzu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1327567121&wbfileid=4764412
   implementation: http://www5.zzu.edu.cn/ecilab/info/1036/1251.htm
   source (real-world/artificial): ''
@@ -278,11 +260,10 @@
   noise: 'no'
   multimodal: '?'
   multi-fidelity: 'no'
-  other info: expensive evaluations 30s-15m
   reference: https://doi.org/10.1007/978-3-319-99259-4_24
   implementation: https://bitbucket.org/arahat/cfd-test-problem-suite
   source (real-world/artificial): real world
-  textual description: ''
+  textual description: expensive evaluations 30s-15m
 - name: GBEA
   suite/generator/single: suite
   objectives: 1-2
@@ -293,11 +274,10 @@
   noise: 'yes'
   multimodal: '?'
   multi-fidelity: 'no'
-  other info: expensive evaluations 5s-35s
   reference: https://doi.org/10.1145/3321707.3321805
   implementation: '?'
   source (real-world/artificial): real world
-  textual description: ''
+  textual description: expensive evaluations 5s-35s
 - name: Car structure
   suite/generator/single: suite
   objectives: '2'
@@ -308,11 +288,10 @@
   noise: 'no'
   multimodal: '?'
   multi-fidelity: 'no'
-  other info: 54 constraints
   reference: https://doi.org/10.1145/3205651.3205702
   implementation: http://ladse.eng.isas.jaxa.jp/benchmark/
   source (real-world/artificial): real world
-  textual description: ''
+  textual description: 54 constraints
 - name: EMO2017
   suite/generator/single: suite
   objectives: '2'
@@ -323,7 +302,6 @@
   noise: 'no'
   multimodal: '?'
   multi-fidelity: 'no'
-  other info: ''
   reference: https://www.ini.rub.de/PEOPLE/glasmtbl/projects/bbcomp/
   implementation: https://www.ini.rub.de/PEOPLE/glasmtbl/projects/bbcomp/downloads/realworld-problems-bbcomp-EMO-2017.zip
   source (real-world/artificial): real world
@@ -338,11 +316,10 @@
   noise: 'no'
   multimodal: '?'
   multi-fidelity: 'no'
-  other info: expensive evaluations 3s; 22 constraints
   reference: http://www.jpnsec.org/files/competition2019/EC-Symposium-2019-Competition-English.html
   implementation: http://www.jpnsec.org/files/competition2019/EC-Symposium-2019-Competition-English.html
   source (real-world/artificial): real world
-  textual description: ''
+  textual description: expensive evaluations 3s; 22 constraints
 - name: RE
   suite/generator/single: suite
   objectives: 2-9
@@ -353,7 +330,6 @@
   noise: 'no'
   multimodal: '?'
   multi-fidelity: 'no'
-  other info: ''
   reference: https://doi.org/10.1016/j.asoc.2020.106078
   implementation: https://github.com/ryojitanabe/reproblems
   source (real-world/artificial): real world like
@@ -368,7 +344,6 @@
   noise: 'no'
   multimodal: '?'
   multi-fidelity: 'no'
-  other info: ''
   reference: https://doi.org/10.1016/j.asoc.2020.106078
   implementation: https://github.com/ryojitanabe/reproblems
   source (real-world/artificial): real world like
@@ -383,7 +358,6 @@
   noise: 'no'
   multimodal: '?'
   multi-fidelity: 'no'
-  other info: ''
   reference: https://doi.org/10.1007/978-3-540-70928-2_53
   implementation: http://code.evanhughes.org/
   source (real-world/artificial): real world
@@ -398,7 +372,6 @@
   noise: 'no'
   multimodal: '?'
   multi-fidelity: 'yes'
-  other info: ''
   reference: https://doi.org/10.21105/joss.02049
   implementation: https://github.com/sjvrijn/mf2
   source (real-world/artificial): ''
@@ -413,7 +386,6 @@
   noise: 'no'
   multimodal: 'yes'
   multi-fidelity: 'no'
-  other info: ''
   reference: https://doi.org/10.1109/TEVC.2013.2281531
   implementation: '?'
   source (real-world/artificial): ''
@@ -428,7 +400,6 @@
   noise: 'no'
   multimodal: '?'
   multi-fidelity: 'no'
-  other info: ''
   reference: https://doi.org/10.1109/TEVC.2013.2281531
   implementation: '?'
   source (real-world/artificial): real world
@@ -443,12 +414,11 @@
   noise: 'no'
   multimodal: 'yes'
   multi-fidelity: 'no'
-  other info: problems from BBOB but allows instances with the optimum close to the
-    boundary
   reference: https://doi.org/10.48550/arXiv.2305.12221
   implementation: https://github.com/IOHprofiler/IOHexperimenter/
   source (real-world/artificial): ''
-  textual description: ''
+  textual description: problems from BBOB but allows instances with the optimum close to the
+    boundary
 - name: "\u03C1MNK-Landscapes"
   suite/generator/single: generator
   objectives: scalable
@@ -459,12 +429,11 @@
   noise: 'no'
   multimodal: 'yes'
   multi-fidelity: 'no'
-  other info: tunable variable and objective dimensions; tunable multimodality and
-    correlation between objectives
   reference: https://doi.org/10.1016/j.ejor.2012.12.019
   implementation: https://gitlab.com/aliefooghe/mocobench/
   source (real-world/artificial): ''
-  textual description: ''
+  textual description: tunable variable and objective dimensions; tunable multimodality and
+    correlation between objectives
 - name: mUBQP
   suite/generator/single: generator
   objectives: scalable
@@ -475,12 +444,11 @@
   noise: 'no'
   multimodal: yes (quadratic)
   multi-fidelity: 'no'
-  other info: tunable variable and objective dimensions; tunable density and correlation
-    between objectives
   reference: https://doi.org/10.1016/j.asoc.2013.11.008
   implementation: https://gitlab.com/aliefooghe/mocobench/
   source (real-world/artificial): ''
-  textual description: ''
+  textual description: tunable variable and objective dimensions; tunable density and correlation
+    between objectives
 - name: "\u03C1mTSP"
   suite/generator/single: generator
   objectives: scalable
@@ -491,12 +459,11 @@
   noise: 'no'
   multimodal: yes (quadratic)
   multi-fidelity: 'no'
-  other info: tunable variable and objective dimensions; tunable instance type (euclidian/random);
-    tunable correlation between objectives
   reference: https://doi.org/10.1007/978-3-319-45823-6_40
   implementation: https://gitlab.com/aliefooghe/mocobench/
   source (real-world/artificial): ''
-  textual description: ''
+  textual description: tunable variable and objective dimensions; tunable instance type (euclidian/random);
+    tunable correlation between objectives
 - name: CEC2015-DMOO
   suite/generator/single: suite
   objectives: 2-3
@@ -507,7 +474,6 @@
   noise: 'no'
   multimodal: '?'
   multi-fidelity: 'no'
-  other info: ''
   reference: Benchmark Functions for CEC 2015 Special Session and Competition on Dynamic
     Multi-objective Optimization
   implementation: ''
@@ -523,11 +489,10 @@
   noise: 'no'
   multimodal: '?'
   multi-fidelity: optional
-  other info: Real-world-like, easily extensible to increase complexity
   reference: https://doi.org/10.1145/3638530.3654299
   implementation: https://github.com/qrenau/Ealain
-  source (real-world/artificial): ''
-  textual description: ''
+  source (real-world/artificial): Real-world-like
+  textual description: Real-world-like, easily extensible to increase complexity
 - name: MA-BBOB
   suite/generator/single: generator
   objectives: '1'
@@ -538,11 +503,10 @@
   noise: 'no'
   multimodal: 'yes'
   multi-fidelity: 'no'
-  other info: Generator that creates affine combinations of BBOB functions
   reference: https://doi.org/10.1145/3673908
   implementation: https://github.com/IOHprofiler/IOHexperimenter/blob/master/example/Competitions/MA-BBOB/Example_MABBOB.ipynb
-  source (real-world/artificial): ''
-  textual description: ''
+  source (real-world/artificial): artificial
+  textual description: Generator that creates affine combinations of BBOB functions
 - name: MPM2
   suite/generator/single: generator
   objectives: '1'
@@ -553,12 +517,11 @@
   noise: 'no'
   multimodal: 'yes'
   multi-fidelity: 'no'
-  other info: nonlinear nonseparable nonsymmetric; scalable in terms of time to evaluate
-    the objective function
   reference: https://ls11-www.cs.tu-dortmund.de/_media/techreports/tr15-01.pdf
   implementation: https://github.com/jakobbossek/smoof/blob/master/inst/mpm2.py
   source (real-world/artificial): ''
-  textual description: ''
+  textual description: nonlinear nonseparable nonsymmetric; scalable in terms of time to evaluate
+    the objective function
 - name: Convex DTLZ2
   suite/generator/single: single
   objectives: 2+
@@ -569,11 +532,10 @@
   noise: 'no'
   multimodal: '?'
   multi-fidelity: 'no'
-  other info: Variant of DTLZ2 with a convex Pareto front (instead of concave)
   reference: https://doi.org/10.1109/TEVC.2013.2281535
   implementation: '?'
   source (real-world/artificial): ''
-  textual description: ''
+  textual description: Variant of DTLZ2 with a convex Pareto front (instead of concave)
 - name: Inverted DTLZ1
   suite/generator/single: single
   objectives: 2+
@@ -584,11 +546,10 @@
   noise: 'no'
   multimodal: '?'
   multi-fidelity: 'no'
-  other info: Variant of DTLZ1 with an inverted Pareto front
   reference: https://doi.org/10.1109/TEVC.2013.2281534
   implementation: '?'
   source (real-world/artificial): ''
-  textual description: ''
+  textual description: Variant of DTLZ1 with an inverted Pareto front
 - name: Minus DTLZ
   suite/generator/single: suite
   objectives: 2+
@@ -599,11 +560,10 @@
   noise: 'no'
   multimodal: '?'
   multi-fidelity: 'no'
-  other info: Variant of DTLZ that minimises the inverse of the base DTLZ functions
   reference: https://doi.org/10.1109/TEVC.2016.2587749
   implementation: '?'
   source (real-world/artificial): ''
-  textual description: ''
+  textual description: Variant of DTLZ that minimises the inverse of the base DTLZ functions
 - name: Minus WFG
   suite/generator/single: suite
   objectives: 2+
@@ -614,11 +574,10 @@
   noise: 'no'
   multimodal: '?'
   multi-fidelity: 'no'
-  other info: Variant of WFG that minimises the inverse of the base WFG functions
   reference: https://doi.org/10.1109/TEVC.2016.2587749
   implementation: '?'
   source (real-world/artificial): ''
-  textual description: ''
+  textual description: Variant of WFG that minimises the inverse of the base WFG functions
 - name: L1-ZDT
   suite/generator/single: suite
   objectives: '2'
@@ -629,13 +588,12 @@
   noise: 'no'
   multimodal: '?'
   multi-fidelity: 'no'
-  other info: Variant of ZDT with linkages between variables within one of two groups
-    but not between variables in a different group; Linear recombination operators
-    can potentially take advantage of the problem structure
   reference: https://doi.org/10.1145/1143997.1144179
   implementation: '?'
   source (real-world/artificial): ''
-  textual description: ''
+  textual description: Variant of ZDT with linkages between variables within one of two groups
+    but not between variables in a different group; Linear recombination operators
+    can potentially take advantage of the problem structure
 - name: L2-ZDT
   suite/generator/single: suite
   objectives: '2'
@@ -646,12 +604,11 @@
   noise: 'no'
   multimodal: '?'
   multi-fidelity: 'no'
-  other info: Variant of ZDT with linkages between all variables; Linear recombination
-    operators can potentially take advantage of the problem structure
   reference: https://doi.org/10.1145/1143997.1144179
   implementation: '?'
   source (real-world/artificial): ''
-  textual description: ''
+  textual description: Variant of ZDT with linkages between all variables; Linear recombination
+    operators can potentially take advantage of the problem structure
 - name: L3-ZDT
   suite/generator/single: suite
   objectives: '2'
@@ -662,12 +619,11 @@
   noise: 'no'
   multimodal: '?'
   multi-fidelity: 'no'
-  other info: Variant of L2-ZDT using a mapping to prevent linear recombination operators
-    from potentially taking advantage of the problem structure
   reference: https://doi.org/10.1145/1143997.1144179
   implementation: '?'
   source (real-world/artificial): ''
-  textual description: ''
+  textual description: Variant of L2-ZDT using a mapping to prevent linear recombination operators
+    from potentially taking advantage of the problem structure
 - name: L2-DTLZ
   suite/generator/single: suite
   objectives: 2+
@@ -678,12 +634,11 @@
   noise: 'no'
   multimodal: '?'
   multi-fidelity: 'no'
-  other info: Variant of DTLZ2 and DTLZ3 with linkages between all variables; Linear
-    recombination operators can potentially take advantage of the problem structure
   reference: https://doi.org/10.1145/1143997.1144179
   implementation: '?'
   source (real-world/artificial): ''
-  textual description: ''
+  textual description: Variant of DTLZ2 and DTLZ3 with linkages between all variables; Linear
+    recombination operators can potentially take advantage of the problem structure
 - name: L3-DTLZ
   suite/generator/single: suite
   objectives: 2+
@@ -694,12 +649,11 @@
   noise: 'no'
   multimodal: '?'
   multi-fidelity: 'no'
-  other info: Variant of L2-DTLZ using a mapping to prevent linear recombination operators
-    from potentially taking advantage of the problem structure
   reference: https://doi.org/10.1145/1143997.1144179
   implementation: '?'
   source (real-world/artificial): ''
-  textual description: ''
+  textual description: Variant of L2-DTLZ using a mapping to prevent linear recombination operators
+    from potentially taking advantage of the problem structure
 - name: CEC2018 DT - CEC2018 Competition on Dynamic Multiobjective Optimisation
   suite/generator/single: suite
   objectives: 2 or 3
@@ -710,7 +664,6 @@
   noise: 'no'
   multimodal: '?'
   multi-fidelity: 'no'
-  other info: ''
   reference: https://www.academia.edu/download/94499025/TR-CEC2018-DMOP-Competition.pdf
   implementation: https://pymoo.org/problems/dynamic/df.html
   source (real-world/artificial): artificial
@@ -727,13 +680,12 @@
   noise: 'no'
   multimodal: '?'
   multi-fidelity: 'no'
-  other info: Need the https://github.com/epfl-lamd/modact package installed; evaluation
-    times around 20ms
   reference: https://doi.org/10.1109/TEVC.2020.3020046
   implementation: https://pymoo.org/problems/constrained/modact.html
   source (real-world/artificial): real-world
   textual description: Realistic Constrained Multi-Objective Optimization Benchmark
-    Problems from Design
+    Problems from Design. Need the https://github.com/epfl-lamd/modact package installed; evaluation
+    times around 20ms
 - name: IOHClustering
   suite/generator/single: suite; generator
   objectives: '1'
@@ -744,13 +696,12 @@
   noise: 'no'
   multimodal: 'yes'
   multi-fidelity: 'no '
-  other info: Based on ML clustering datasets
   reference: https://arxiv.org/pdf/2505.09233
   implementation: https://github.com/IOHprofiler/IOHClustering
   source (real-world/artificial): artificial, but based on real data
   textual description: 'Set of benchmark problems from clustering: optimization task
     is selecting cluster centers for a given set of data, with the number of clusters
-    defining problem dimensionality. Includes both a suite and a generator'
+    defining problem dimensionality. Includes both a suite and a generator. Based on ML clustering datasets'
 - name: GNBG-II
   suite/generator/single: suite; generator
   objectives: '1'
@@ -761,11 +712,10 @@
   noise: 'no'
   multimodal: '?'
   multi-fidelity: 'no'
-  other info: 'Implementation in IOHexperimenter: https://github.com/IOHprofiler/IOHGNBG'
   reference: https://dl.acm.org/doi/pdf/10.1145/3712255.3734271
   implementation: https://github.com/rohitsalgotra/GNBG-II
   source (real-world/artificial): artificial
-  textual description: Generalized Numerical Benchmark Generator (version 2)
+  textual description: Generalized Numerical Benchmark Generator (version 2). Also in IOH https://github.com/IOHprofiler/IOHGNBG
 - name: GNBG
   suite/generator/single: suite; generator
   objectives: '1'
@@ -776,7 +726,6 @@
   noise: 'no'
   multimodal: '?'
   multi-fidelity: 'no'
-  other info: ''
   reference: https://arxiv.org/abs/2312.07083
   implementation: https://github.com/Danial-Yazdani/GNBG-Generator
   source (real-world/artificial): artificial
@@ -791,7 +740,6 @@
   noise: 'no'
   multimodal: '?'
   multi-fidelity: 'no'
-  other info: ''
   reference: https://arxiv.org/pdf/2404.15837
   implementation: https://github.com/IOHprofiler/IOHexperimenter
   source (real-world/artificial): artificial
@@ -806,7 +754,6 @@
   noise: 'no'
   multimodal: '?'
   multi-fidelity: 'no'
-  other info: ''
   reference: https://dl.acm.org/doi/pdf/10.1145/3319619.3326810
   implementation: https://github.com/IOHprofiler/IOHexperimenter
   source (real-world/artificial): artificial
@@ -821,7 +768,6 @@
   noise: 'no'
   multimodal: '?'
   multi-fidelity: 'no'
-  other info: ''
   reference: https://dl.acm.org/doi/abs/10.1145/3205651.3208240?casa_token=S4U_Pi9f6MwAAAAA:U9ztNTPwmupT8K3GamWZfBL7-8fqjxPtr_kprv51vdwA-REsp0EyOFGa99BtbANb0XbqyrVg795hIw
   implementation: https://github.com/thomasWeise/BBDOB_W_Model
   source (real-world/artificial): artificial
@@ -837,7 +783,6 @@
   noise: 'no'
   multimodal: '?'
   multi-fidelity: 'no'
-  other info: ''
   reference: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10254181
   implementation: https://github.com/IOHprofiler/IOHexperimenter
   source (real-world/artificial): artificial
@@ -853,11 +798,10 @@
   noise: 'no'
   multimodal: '?'
   multi-fidelity: 'no'
-  other info: 'Implementation available in IOHexperimenter: https://github.com/IOHprofiler/IOHexperimenter'
   reference: https://peerj.com/articles/cs-2671/CEC2013.pdf
   implementation: https://github.com/P-N-Suganthan/CEC2013
   source (real-world/artificial): artificial
-  textual description: suite used for cec2013 competition
+  textual description: suite used for cec2013 competition. Also in IOH https://github.com/IOHprofiler/IOHexperimenter
 - name: CEC2022
   suite/generator/single: suite
   objectives: '1'
@@ -868,11 +812,10 @@
   noise: 'no'
   multimodal: '?'
   multi-fidelity: 'no'
-  other info: 'Implementation available in IOHexperimenter: https://github.com/IOHprofiler/IOHexperimenter'
   reference: https://github.com/P-N-Suganthan/2022-SO-BO/blob/main/CEC2022%20TR.pdf
   implementation: https://github.com/P-N-Suganthan/2022-SO-BO
   source (real-world/artificial): artificial
-  textual description: suite used for cec2022 competition
+  textual description: suite used for cec2022 competition. Also in IOH https://github.com/IOHprofiler/IOHexperimenter
 - name: Onemax+Sphere / Zeromax+Sphere
   suite/generator/single: single
   objectives: '2'
@@ -883,7 +826,6 @@
   noise: 'no'
   multimodal: ''
   multi-fidelity: 'no'
-  other info: ''
   reference: https://doi.org/10.1145/3449726.3459521
   implementation:
   source (real-world/artificial): 'artificial'
@@ -898,7 +840,6 @@
   noise: 'no'
   multimodal: ''
   multi-fidelity: 'no'
-  other info: ''
   reference: https://doi.org/10.1145/3449726.3459521
   implementation:
   source (real-world/artificial): 'artificial'
@@ -913,7 +854,6 @@
   noise: 'no'
   multimodal: ''
   multi-fidelity: 'no'
-  other info: ''
   reference: https://doi.org/10.1145/3449726.3459521
   implementation:
   source (real-world/artificial): 'artificial'

@@ -289,7 +289,7 @@
     </tr>
     <tr>
       <td>CFD</td>
-      <td></td>
+      <td>expensive evaluations 30s-15m</td>
       <td>suite</td>
       <td>1-2</td>
       <td>scalable</td>
@@ -304,7 +304,7 @@
     </tr>
     <tr>
       <td>GBEA</td>
-      <td></td>
+      <td>expensive evaluations 5s-35s</td>
       <td>suite</td>
       <td>1-2</td>
       <td>scalable</td>
@@ -319,7 +319,7 @@
     </tr>
     <tr>
       <td>Car structure</td>
-      <td></td>
+      <td>54 constraints</td>
       <td>suite</td>
       <td>2</td>
       <td>144-222</td>
@@ -349,7 +349,7 @@
     </tr>
     <tr>
       <td>JSEC2019</td>
-      <td></td>
+      <td>expensive evaluations 3s; 22 constraints</td>
       <td>single</td>
       <td>1-5</td>
       <td>32</td>
@@ -454,7 +454,7 @@
     </tr>
     <tr>
       <td>SBOX-COST</td>
-      <td></td>
+      <td>problems from BBOB but allows instances with the optimum close to the boundary</td>
       <td>suite</td>
       <td>1</td>
       <td>scalable</td>
@@ -469,7 +469,7 @@
     </tr>
     <tr>
       <td>ρMNK-Landscapes</td>
-      <td></td>
+      <td>tunable variable and objective dimensions; tunable multimodality and correlation between objectives</td>
       <td>generator</td>
       <td>scalable</td>
       <td>scalable</td>
@@ -484,7 +484,7 @@
     </tr>
     <tr>
       <td>mUBQP</td>
-      <td></td>
+      <td>tunable variable and objective dimensions; tunable density and correlation between objectives</td>
       <td>generator</td>
       <td>scalable</td>
       <td>scalable</td>
@@ -499,7 +499,7 @@
     </tr>
     <tr>
       <td>ρmTSP</td>
-      <td></td>
+      <td>tunable variable and objective dimensions; tunable instance type (euclidian/random); tunable correlation between objectives</td>
       <td>generator</td>
       <td>scalable</td>
       <td>scalable</td>
@@ -529,7 +529,7 @@
     </tr>
     <tr>
       <td>Ealain</td>
-      <td></td>
+      <td>Real-world-like, easily extensible to increase complexity</td>
       <td>generator</td>
       <td>1+</td>
       <td>scalable</td>
@@ -538,13 +538,13 @@
       <td>optional</td>
       <td>no</td>
       <td>optional</td>
-      <td></td>
+      <td>Real-world-like</td>
       <td><a href="https://doi.org/10.1145/3638530.3654299" target="_blank">https://doi.org/10.1145/3638530.3654299</a></td>
       <td><a href="https://github.com/qrenau/Ealain" target="_blank">https://github.com/qrenau/Ealain</a></td>
     </tr>
     <tr>
       <td>MA-BBOB</td>
-      <td></td>
+      <td>Generator that creates affine combinations of BBOB functions</td>
       <td>generator</td>
       <td>1</td>
       <td>scalable</td>
@@ -553,13 +553,13 @@
       <td>no</td>
       <td>no</td>
       <td>no</td>
-      <td></td>
+      <td>artificial</td>
       <td><a href="https://doi.org/10.1145/3673908" target="_blank">https://doi.org/10.1145/3673908</a></td>
       <td><a href="https://github.com/IOHprofiler/IOHexperimenter/blob/master/example/Competitions/MA-BBOB/Example_MABBOB.ipynb" target="_blank">https://github.com/IOHprofiler/IOHexperimenter/blob/master/example/Competitions/MA-BBOB/Example_MABBOB.ipynb</a></td>
     </tr>
     <tr>
       <td>MPM2</td>
-      <td></td>
+      <td>nonlinear nonseparable nonsymmetric; scalable in terms of time to evaluate the objective function</td>
       <td>generator</td>
       <td>1</td>
       <td>scalable</td>
@@ -574,7 +574,7 @@
     </tr>
     <tr>
       <td>Convex DTLZ2</td>
-      <td></td>
+      <td>Variant of DTLZ2 with a convex Pareto front (instead of concave)</td>
       <td>single</td>
       <td>2+</td>
       <td>scalable</td>
@@ -589,7 +589,7 @@
     </tr>
     <tr>
       <td>Inverted DTLZ1</td>
-      <td></td>
+      <td>Variant of DTLZ1 with an inverted Pareto front</td>
       <td>single</td>
       <td>2+</td>
       <td>scalable</td>
@@ -604,7 +604,7 @@
     </tr>
     <tr>
       <td>Minus DTLZ</td>
-      <td></td>
+      <td>Variant of DTLZ that minimises the inverse of the base DTLZ functions</td>
       <td>suite</td>
       <td>2+</td>
       <td>scalable</td>
@@ -619,7 +619,7 @@
     </tr>
     <tr>
       <td>Minus WFG</td>
-      <td></td>
+      <td>Variant of WFG that minimises the inverse of the base WFG functions</td>
       <td>suite</td>
       <td>2+</td>
       <td>scalable</td>
@@ -634,7 +634,7 @@
     </tr>
     <tr>
       <td>L1-ZDT</td>
-      <td></td>
+      <td>Variant of ZDT with linkages between variables within one of two groups but not between variables in a different group; Linear recombination operators can potentially take advantage of the problem structure</td>
       <td>suite</td>
       <td>2</td>
       <td>scalable</td>
@@ -649,7 +649,7 @@
     </tr>
     <tr>
       <td>L2-ZDT</td>
-      <td></td>
+      <td>Variant of ZDT with linkages between all variables; Linear recombination operators can potentially take advantage of the problem structure</td>
       <td>suite</td>
       <td>2</td>
       <td>scalable</td>
@@ -664,7 +664,7 @@
     </tr>
     <tr>
       <td>L3-ZDT</td>
-      <td></td>
+      <td>Variant of L2-ZDT using a mapping to prevent linear recombination operators from potentially taking advantage of the problem structure</td>
       <td>suite</td>
       <td>2</td>
       <td>scalable</td>
@@ -679,7 +679,7 @@
     </tr>
     <tr>
       <td>L2-DTLZ</td>
-      <td></td>
+      <td>Variant of DTLZ2 and DTLZ3 with linkages between all variables; Linear recombination operators can potentially take advantage of the problem structure</td>
       <td>suite</td>
       <td>2+</td>
       <td>scalable</td>
@@ -694,7 +694,7 @@
     </tr>
     <tr>
       <td>L3-DTLZ</td>
-      <td></td>
+      <td>Variant of L2-DTLZ using a mapping to prevent linear recombination operators from potentially taking advantage of the problem structure</td>
       <td>suite</td>
       <td>2+</td>
       <td>scalable</td>
@@ -724,7 +724,7 @@
     </tr>
     <tr>
       <td>MODAct - multiobjective design of actuators</td>
-      <td>Realistic Constrained Multi-Objective Optimization Benchmark Problems from Design</td>
+      <td>Realistic Constrained Multi-Objective Optimization Benchmark Problems from Design. Need the https://github.com/epfl-lamd/modact package installed; evaluation times around 20ms</td>
       <td>suite</td>
       <td>2 3 4 or 5</td>
       <td>20</td>
@@ -739,7 +739,7 @@
     </tr>
     <tr>
       <td>IOHClustering</td>
-      <td>Set of benchmark problems from clustering: optimization task is selecting cluster centers for a given set of data, with the number of clusters defining problem dimensionality. Includes both a suite and a generator</td>
+      <td>Set of benchmark problems from clustering: optimization task is selecting cluster centers for a given set of data, with the number of clusters defining problem dimensionality. Includes both a suite and a generator. Based on ML clustering datasets</td>
       <td>suite; generator</td>
       <td>1</td>
       <td>scalable</td>
@@ -754,7 +754,7 @@
     </tr>
     <tr>
       <td>GNBG-II</td>
-      <td>Generalized Numerical Benchmark Generator (version 2)</td>
+      <td>Generalized Numerical Benchmark Generator (version 2). Also in IOH https://github.com/IOHprofiler/IOHGNBG</td>
       <td>suite; generator</td>
       <td>1</td>
       <td>scalable</td>
@@ -844,7 +844,7 @@
     </tr>
     <tr>
       <td>CEC2013</td>
-      <td>suite used for cec2013 competition</td>
+      <td>suite used for cec2013 competition. Also in IOH https://github.com/IOHprofiler/IOHexperimenter</td>
       <td>suite</td>
       <td>1</td>
       <td>scalable</td>
@@ -859,7 +859,7 @@
     </tr>
     <tr>
       <td>CEC2022</td>
-      <td>suite used for cec2022 competition</td>
+      <td>suite used for cec2022 competition. Also in IOH https://github.com/IOHprofiler/IOHexperimenter</td>
       <td>suite</td>
       <td>1</td>
       <td>scalable</td>
