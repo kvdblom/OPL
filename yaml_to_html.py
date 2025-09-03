@@ -18,10 +18,23 @@ with open(yaml_file) as in_file:
     data = pd.json_normalize(yaml.safe_load(in_file))
 
 # Choose desired columns
-all_columns = True
+all_columns = False
+default_columns = ["name",
+                   "textual description",
+                   "suite/generator/single",
+                   "objectives",
+                   "dimensionality",
+                   "variable type",
+                   "constraints",
+                   "dynamic",
+                   "noise",
+                   "multi-fidelity",
+                   "source (real-world/artificial)",
+                   "reference",
+                   "implementation"]
 
 if all_columns is False:
-    columns = ["name", "objectives"]  # Desired columns
+    columns = default_columns
     data = data[columns]
 
 # Generate plain table
